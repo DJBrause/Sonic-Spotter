@@ -82,8 +82,6 @@ class GUI:
 
         self.master.config(menu=self.menu_bar)
 
-        # https://www.tutorialspoint.com/python/tk_menu.htm
-
     def save_and_quit(self):
         self.save_settings()
         self.master.destroy()
